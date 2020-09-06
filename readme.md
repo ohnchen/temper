@@ -6,6 +6,6 @@ In this project I am trying to develop an TKinter application, which shows a the
 - Display thermometer
 - Settings
     - Add thermometers
-        - naming etc.
+        - naming the thermos, changing the color etc.
     - Remove thermometers
 - Increase the heat!
