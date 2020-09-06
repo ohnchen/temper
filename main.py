@@ -1,14 +1,15 @@
 from tkinter import *
+from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Stimmungsthermometer")
 root.iconbitmap("c:/temper/temper/IconThermometer.ico")
-root.geometry("920x480")
 
-def clicked_button():
-    return
+thermo = ImageTk.PhotoImage(Image.open("Thermometer.jpg").resize((450,660), Image.ANTIALIAS))
+thermo_label = Label(image=thermo)
+thermo_label.grid(row=0, column=0)
 
-button = Button(root, text="Increase the Heat!", command=clicked_button)
-button.pack()
+increaser_button = Button(root, text="Increase the Heat!")
+increaser_button.grid(row=1, column=0)
 
 root.mainloop()
