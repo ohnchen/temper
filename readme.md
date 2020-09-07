@@ -4,8 +4,9 @@ In this project I am trying to develop an TKinter application, which shows a the
 
 #### Things it should be able to do:
 → Display thermometer
-
+____
 → Settings
-    →  Add thermometers
+    → Add thermometers
     → Remove thermometers
+____
 → Increase the heat!
