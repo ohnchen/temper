@@ -1,4 +1,4 @@
-# My first real/useful project
+## STIMMUNGSTHERMOMETER
 
 In this project I am trying to develop an TKinter application, which shows a thermometer and increases the heat at the click of an button.
 
