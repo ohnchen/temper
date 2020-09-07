@@ -7,10 +7,12 @@ Die TKinter Application soll dazu Imstande sein verschiedenfarbige Thermometer d
 ![How my programm is supposed to look](https://st2.depositphotos.com/1216158/6711/v/450/depositphotos_67114415-stock-illustration-thermometer-colorful-graphics.jpg)
 
 #### Things it should be able to do:
-→ Display thermometer
+→ Display thermometers
+→ Vary the steps in which you can increase the temperature
+→ Increase the heat!
 ____
 → Settings
     → Add thermometers
     → Remove thermometers
 ____
-→ Increase the heat!
+
