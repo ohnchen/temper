@@ -54,6 +54,39 @@ thermo_5 = ImageTk.PhotoImage(Image.open("Thermometer_5.png"))
 thermo_label = Label(image=thermo_1)
 thermo_label.grid(row=1, column=0)
 
+
+### Trying to fit everything into a class, to add and remove class objects. One frame as one object.
+# 
+# class Stimmungsthermometer:
+#
+#   def __init__(self, n):
+#       self.n = n
+#   def increase(self):
+#       if 1 < self.n < 5:
+#           t = "thermo_" + str(self.n + 1)
+#           thermo_label.config(image=t)
+#
+#   def decrease(self): 
+#       if 2 < self.n < 6:
+#           t = "thermo_" + str(self.n + 1)
+#           thermo_label.config(image=t)
+#
+#   thermo_1 = ImageTk.PhotoImage(Image.open("Thermometer_1.png"))
+#   thermo_2 = ImageTk.PhotoImage(Image.open("Thermometer_2.png"))
+#   thermo_3 = ImageTk.PhotoImage(Image.open("Thermometer_3.png"))
+#   thermo_4 = ImageTk.PhotoImage(Image.open("Thermometer_4.png"))
+#   thermo_5 = ImageTk.PhotoImage(Image.open("Thermometer_5.png"))
+#   thermo_label = Label(image=thermo_1)
+#   thermo_label.grid(row=1, column=0)
+#
+# def add():
+#   
+# add_button = Button(root, text="+", command=add)
+#
+# s1 = Stimmmungsthermometer(1)
+
+
+
 ### Putting buttons on the TK window with their ability to execute on of the two functions, also defining a title
 title_lbl = Label(root, text="Stimmungsthermometer der ersten Partei:")
 title_lbl.grid(row=0, column=0)
