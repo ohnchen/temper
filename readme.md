@@ -1,6 +1,7 @@
+
 ## STIMMUNGSTHERMOMETER
 
-Dieses Projekt dient als unterstützendes Mittel für eine von mir und meinen Mitschülern geplanten Unterrichtsstunde.
+!!Dieses Projekt dient als unterstützendes Mittel für eine von mir und meinen Mitschülern geplanten Unterrichtsstunde.
 Die TKinter Application soll dazu Imstande sein verschiedenfarbige Thermometer darzustellen und ihre Temperaturlevel zu verändern.
 
 
